@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto",sans-serif;
+    background:linear-gradient(rgba(17,19,213,0.945),rgba(5,5,18,0.879));
+    color: #fff;
+}
+/* .fo .kow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    margin:0px;
+    text-align: right;
+} */
+.content{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+.data{
+    display: flex;
+    margin-left: 20rem;
+}
+.content_info{
+    margin-left: 10rem;
+}
+.s{
+    padding: 10px;
+    margin-top: 1rem;
+    border-radius: 8px;
+    outline: 0px;
+    border: 0px;
+    background-color: rgb(255, 19, 19);
+    color: #fff;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./Mystyles2.css">
+    <style>
+        table tr td {
+            padding: .5rem;
+        }
+        a{
+            margin-bottom:10%;
+        }
+        .s{
+            background-image:linear-gradient(rgb(163, 206, 25),rgb(197, 105, 35));
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h1>FOODIES</h1>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./restaurant.html">Restaurant</li>
+            <li><a href="./Contactus.html">Contact</a></li>
+            <li><a href="./signup.html">Signup</a></li>
+            <li><a href="./login.html">Login</a></li>
+        </ul>
+        </nav>
+    <form action="login.html">
+        <div class="s">
+            <h1>Account Registration</h1><br>
+        <Center><table align="center">
+            <tr>
+                <td><label for="username">Username</label></td>
+                <td><input type="text" placeholder="Username..." id="username"/></td>
+            </tr>
+            <tRr>
+                <td><label for="email">Email</label></td>
+                <td><input list="email" name="mymails" placeholder="Email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="per1">Your Mobile No</label></td>
+                <td><input type="tel" name="personal" id="per1" pattern="[0-9]{10}" title="The ten digits number" placeholder="0000000000"></td>
+            </tr>
+            <tr>
+                <td><label for="Password">Password</label></td>
+                <td><input type="password" placeholder="Password..." id="Password"></td>
+            </tr>
+            <tr>
+                <td><label for="number">Age</label></td>
+                <td><input type="number" placeholder="age" id="number"/></td>
+            </tr>
+            <tr>
+                <td><label for="radio">Gender</label></td>
+                <td>Male<input type="radio" name="radio"/> Female <input type="radio" name="radio"/></td>
+            </tr>
+            <tr>
+                <td><label for="Languages">Languages</label></td>
+                <td><input type="checkbox">English <input type="checkbox">Telugu <input type="checkbox">Hindi <input type="checkbox">Other</td>
+            </tr>
+            <tr>
+                <td><label for="Address">Address:</label></td>
+                <td><textarea rows="10" cols="40" placeholder="Address..."></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" name="submit" value="Sign in"></td>
+            </tr>
+        </table></Center>
+    </form>
+
+
+
+        <datalist id="email">
+            <option value="abc@gmail.com"></option>
+            <option value="saimohan@gmail.com"></option>
+            <option value="kowshik@gmail.com"></option>
+            <option value="mohankowshik@gmail.com"></option>
+        </datalist>
+    </div>
+
+        <footer>
+            <p>&copy; 2024 My MyCompany. All rights reserved.</p>
+        </footer>
+</body>
+</html>

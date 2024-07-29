@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Mystyles2.css">
+    <style>
+        .ta{
+            background-image: linear-gradient(rgb(40, 205, 84),rgb(44, 84, 215));
+            font-size: large;
+            padding:10rem;
+        }
+        .btn{
+            padding: 10px;
+            border-radius: 10px;
+            border: 0px;
+            background-color: red;
+            color: white;
+            margin: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>FOODIES</h1>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./restaurant.html">Restaurant</li>
+            <li><a href="./Contactus.html">Contact</a></li>
+            <li><a href="./signup.html">Signup</a></li>
+            <li><a href="./login.html">Login</a></li>
+        </ul>
+        </nav>
+        </header>
+    <fieldset>
+        <legend>Place a order</legend>
+        <div class="ta">
+        <Center><table>
+            <tR>
+                <td><label for="name">Name</label></td>
+                <tD><input type="text" placeholder="customername..." id="name"/></tD>
+            </tR>
+            <tR>
+                <td><label for="email">Email</label></td>
+                <td><input list="email" name="mymails" placeholder="Email" id="email"></td>
+            </tR>
+            <tr>
+                <td><label for="per1">Your Mobile No</label></td>
+                <td><input type="tel" name="personal" id="per1" pattern="[0-9]{10}" title="The ten digits number" placeholder="0000000000"></td>
+            </tr>
+            <tr>
+                <td><label for="Place">Place</label></td>
+                <td><input type="text" placeholder="Place" id="Place"></td>
+            </tr>
+            <tr>
+                <td><label for="Language">Language</label></td>
+                <td><input type="text" placeholder="language" id="lan"></td>
+            </tr>
+            <tr>
+                <td><label for="Address">Destination Address </label></td>
+                <td><textarea rows="10" cols="40" placeholder="Address..."></textarea></td>
+            </tr>
+            <tr>
+                <form action="./foods.html">
+                    <td  colspan="2" align="center" ><input type="submit" name="Back" value="Back" class="btn"></td>
+                </form>
+                <form action="./orderissuccess.html">
+                    <td  align="left"><input type="submit" name="submit" value="order item" class="btn"></td>
+                </form>
+            </tr>
+        </table></Center>
+    </fieldset>
+        <datalist id="email">
+            <option value="abc@gmail.com"></option>
+            <option value="saimohan@gmail.com"></option>
+            <option value="kowshik@gmail.com"></option>
+            <option value="mohankowshik@gmail.com"></option>
+        </datalist>
+        <footer>
+            <p>&copy; 2024 My MyCompany. All rights reserved.</p>
+        </footer>
+</body>
+</html>
